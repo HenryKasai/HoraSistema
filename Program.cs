@@ -10,6 +10,7 @@ namespace HoraSistema
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"Neste momento são exatamente {DataDoSistema}.");
+            Console.ReadKey();
             Console.ForegroundColor = ConsoleColor.Gray;
         }
     }
